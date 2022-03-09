@@ -1,0 +1,23 @@
+.inicio-banner{
+    background-color: #979797;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .button-edit{
+        background-color: $button-color;
+        border-color: $button-color;
+        padding: 8px;
+        border-radius: 10px;
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        &:hover{
+            border-color: #ddd;
+            background-color: #ddd;
+        }
+    }
+}
+
